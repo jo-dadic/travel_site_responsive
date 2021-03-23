@@ -42,3 +42,12 @@
   color: #fff;
   font-size: 100px;
 }
+
+@media (max-width: 576px) {
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    font-size: 70px;
+  }
+}

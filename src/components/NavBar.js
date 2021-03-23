@@ -51,7 +51,11 @@ function Navbar() {
           {/* na klik itema iz menija, prikazuje i sakriva menu, pomoću closeMobileMenu funkcije, za mobilnu verziju */}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/travel_site_responsive"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
